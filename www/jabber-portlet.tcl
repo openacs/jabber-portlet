@@ -29,7 +29,7 @@ set user_id [ad_conn user_id]
 set reg_need "0"
 set not_registred false
 
-ad_maybe_redirect_for_registration
+auth::require_login
 
 if {$canonical_p == 1} {
     set connstate [jb_getconnstate]
