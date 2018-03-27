@@ -37,7 +37,7 @@ ad_form -name user-register -action user-register -form {
     {return_url:text(hidden) {value "index"}}
 }
 
-#-----------------------------------------------------get avaiable services--------------------------------------------------
+#-----------------------------------------------------get available services--------------------------------------------------
 
 db_foreach get_services { Select service from jb_services where active_check_p = 't'} {
     set user_states($service) "offline"

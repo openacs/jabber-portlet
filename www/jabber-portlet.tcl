@@ -62,7 +62,7 @@ if { ![db_0or1row is_user_reg_with_jabber { select (user_id) as reg_check, (uc.j
 
 }
 
-#-----------------------------------------------------get avaiable services--------------------------------------------------
+#-----------------------------------------------------get available services--------------------------------------------------
 
 db_foreach get_services { Select service from jb_services where active_check_p = 't'} {
     set user_states($service) "offline"

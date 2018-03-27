@@ -1,7 +1,7 @@
  
 <if @connstate@ eq -1>
 
-<p><font color="red" size="2">The IM System is not avaiable, please try it again later! </font> </p>
+<p><font color="red" size="2">The IM System is not available, please try it again later! </font> </p>
 </if>
 <if @connstate@ eq 0>
 

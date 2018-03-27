@@ -1,6 +1,6 @@
 <p><b>Who's online?</b></p>
 <if @connstate@ eq -1>
-<p><font color="red" size="10">The IM System is not avaiable, please try it again later!</font></p>
+<p><font color="red" size="10">The IM System is not available, please try it again later!</font></p>
 </if>
 <a href='conference'>Go to the Conference facility</a>
 <p>This page displays users, who are currently online. It differentiate between three user groups. Internal, registered Jabber users, who are on your buddy list including their
